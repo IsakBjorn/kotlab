@@ -1,4 +1,4 @@
-package no.ibear
+package no.ibear.hendelse
 
 import org.springframework.jdbc.core.DataClassRowMapper
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate
@@ -14,7 +14,6 @@ class PostgresDB(val jdbcTemplate: NamedParameterJdbcTemplate) {
     fun insert(nyHendelse: NyHendelse) {
         jdbcTemplate.update(INSERT_HENDELSE, mapOf("type" to nyHendelse.type, "payload" to nyHendelse.payload))
     }
-
 
     fun listAll() : List<Hendelse>{
 

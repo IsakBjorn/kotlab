@@ -1,4 +1,4 @@
-package no.ibear
+package no.ibear.hendelse
 
 import java.sql.Timestamp
 
