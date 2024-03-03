@@ -1,5 +1,7 @@
-package no.ibear.hendelse
+package no.ibear.hendelse_mottaker
 
+import no.ibear.hendelse_mottaker.entities.Hendelse
+import no.ibear.hendelse_mottaker.entities.NyHendelse
 import org.springframework.http.MediaType
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*

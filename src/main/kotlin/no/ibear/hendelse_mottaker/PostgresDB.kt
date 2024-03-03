@@ -1,5 +1,7 @@
-package no.ibear.hendelse
+package no.ibear.hendelse_mottaker
 
+import no.ibear.hendelse_mottaker.entities.Hendelse
+import no.ibear.hendelse_mottaker.entities.NyHendelse
 import org.springframework.jdbc.core.DataClassRowMapper
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate
 import org.springframework.stereotype.Repository
